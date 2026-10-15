@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Offline (scripted model)": {
+      "commandName": "Project"
+    },
+    "Offline, show prompts": {
+      "commandName": "Project",
+      "commandLineArgs": "--verbose"
+    },
+    "Real model (needs ANTHROPIC_API_KEY)": {
+      "commandName": "Project",
+      "commandLineArgs": "--real --verbose"
+    }
+  }
+}
